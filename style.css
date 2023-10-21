@@ -1,0 +1,43 @@
+body{
+    font-family: monospace;
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    box-shadow: #000000;
+}
+input{
+    width: 10%;
+    height: 1.5rem;
+    border: none;
+    border-radius: 19px;
+    background-color: rgb(209, 247, 147);
+    padding: 10px;
+}
+
+button{
+    pad: 2%;
+    width: 10%;
+    height: 3rem;
+    border: none;
+    border-radius: 19px;
+    background-color: rgb(83, 129, 129);
+}
+button:hover{
+    border: 1px solid black;
+}
+@keyframes fadeIn {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+
+@media (prefers-color-scheme:dark){
+    body{
+        background-color: black;
+        color: white;
+        box-shadow: rgb(255, 255, 255);
+    }
+}
